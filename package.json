@@ -1,0 +1,9 @@
+{
+  "name": "generic-police-system",
+  "version": "1.0.0",
+  "description": "Um sistema de gerenciamento de polícia genérico",
+  "main": "server.js",
+  "repository": "git@github.com:Goufix/generic-police-system.git",
+  "author": "Goufix",
+  "license": "MIT"
+}
