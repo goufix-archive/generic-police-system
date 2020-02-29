@@ -2,8 +2,22 @@
   "name": "generic-police-system",
   "version": "1.0.0",
   "description": "Um sistema de gerenciamento de polícia genérico",
-  "main": "server.js",
+  "main": "src/server.ts",
   "repository": "git@github.com:Goufix/generic-police-system.git",
   "author": "Goufix",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.7.7",
+    "eslint-config-lffg": "^13.0.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  }
 }
