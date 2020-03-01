@@ -1,6 +1,12 @@
-import { Sequelize } from 'sequelize';
+import knex from 'knex';
 
-const sequelize = new Sequelize('police-system', 'postgres', 'postgres', {
-  host: 'localhost',
-  dialect: 'postgres'
+export const database = knex({
+  client: 'pg',
+  connection: {
+    host: 'localhost',
+    port: 5432,
+    user: 'postgres',
+    password: 'postgres',
+    database: 'police-system'
+  }
 });
