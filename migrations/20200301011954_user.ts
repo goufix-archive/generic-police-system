@@ -16,6 +16,8 @@ export function up(knex: Knex) {
   });
 }
 
+//#region Down method that deletes the table
 export function down(knex: Knex) {
   knex.schema.dropTable('users');
 }
+//#endregion
